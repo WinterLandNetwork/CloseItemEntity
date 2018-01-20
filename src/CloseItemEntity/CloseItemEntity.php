@@ -38,6 +38,8 @@ class CloseItemEntity extends PluginBase implements Listener{
  public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
   
   $this->closeTime = 10;
+
+  return true;
  }
  
  public function onClose(){
